@@ -1,0 +1,59 @@
+.bg-grey{
+    background-color: #121212;
+}
+
+
+.flex{
+    display: flex;
+}
+.direction-row{
+    flex-direction: row;
+}
+.direction-col{
+    flex-direction: column;
+}
+.justify-center{
+    justify-content: center;
+}
+.justify-space-bw{
+    justify-content: space-between;
+}
+.justify-end{
+    justify-content: flex-end;
+}
+.align-center{
+    align-items: center;
+}
+
+
+
+
+
+.hide{
+    visibility: hidden;
+}
+
+.invert{
+    filter: invert(1);
+}
+
+.decoration-none{
+    text-decoration: none;
+}
+.c-black{
+    color: black;
+}
+.c-white{
+    color: white;
+}
+
+
+
+
+.grid{
+    display: grid;
+}
+
+.overflow-scroll{
+    overflow: scroll;
+}

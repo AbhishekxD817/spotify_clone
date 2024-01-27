@@ -1,0 +1,101 @@
+@media (max-width:700px){
+
+    body{
+        position: relative;
+    }
+    .app{
+        display: flex;
+        flex-direction: column;
+    }
+    .leftDiv{
+        /* background-color: red; */
+        height: fit-content !important;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .leftDiv .leftInnerDiv2{
+        
+        display: none;
+    }
+    .leftDiv .leftInnerDiv1{
+        width: 100%;
+        height: 100%;
+        /* background-color: rebeccapurple; */
+    }
+    .leftInnerDiv1 div{
+        /* background-color: red; */
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+    }
+    .leftInnerDiv1 div svg{
+        height: 35px;
+    }
+    .leftInnerDiv1 div:nth-child(2),
+    .leftInnerDiv1 div:nth-child(3){
+        display: none;
+    }
+
+    .rightDiv{
+
+        width: 100%;
+        /* background-color: red; */
+        /* overflow: hidden; */
+    }::-webkit-scrollbar{
+        display: none;
+    }
+
+    .rightHeader{
+
+        font-size: 12px;
+    }
+    .actionButtons a,.actionButtons button:nth-child(3){
+        /* background-color: red !important; */
+        width: fit-content;
+        padding: 0 1.4em;
+        
+    }
+
+    .rightFooter{
+        margin-top: 5rem;
+        font-size: 9px;
+        padding: 0.5em 1em;
+        /* background-color: green; */
+        display: flex;
+        flex-direction: column;
+        /* gap: 3em; */
+        flex-wrap: wrap;
+        
+
+    }
+    .rightFooter > div{
+        /* margin: 0 auto; */
+        /* background-color: red; */
+        width: 200px;
+    }
+    .rightDiv div:nth-child(1),
+    .rightDiv div:nth-child(2),
+    .rightDiv div:nth-child(3){
+
+        /* width: 40%; */
+    
+    }
+    .rightFooter div:nth-child(4){
+        /* grid-column: 2/span 3; */
+        /* grid-row: 1/span 9; */
+        width: 100%;
+        justify-content:center;
+        order: -1;
+        /* background-color: blue; */
+        /* margin-bottom: 1rem; */
+        gap: 1rem;
+    }
+
+    .rightFooter >div:nth-child(5){
+        
+        /* background-color: rebeccapurple; */
+        width: 100%;
+    }
+    
+}

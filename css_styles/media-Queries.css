@@ -132,3 +132,34 @@
     }
     
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:418px) {
+    .actionButtons a{
+        height: fit-content;
+        padding: .65em 1em;
+        font-size: 1.1em;
+        /* background-color: red !important; */
+    }
+    .actionButtons a:nth-child(3){
+        /* background-color: gray !important; */
+        width: fit-content !important;
+        padding: .75em;
+
+    
+    }
+    
+}
+

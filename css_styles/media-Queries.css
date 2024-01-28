@@ -27,6 +27,7 @@
     }
     .app{
         display: flex;
+        padding: 0;
         flex-direction: column;
     }
     .leftDiv{
@@ -35,21 +36,24 @@
         width: 100%;
         margin: 0;
         padding: 0;
+
+
+    }
+    .leftDiv .leftInnerDiv1{
+        width: 100%;
+        height: 100%;
+        border-top-right-radius: 0;
+        border-top-left-radius: 0;
+        /* background-color: rebeccapurple; */
     }
     .leftDiv .leftInnerDiv2{
         
         display: none;
     }
-    .leftDiv .leftInnerDiv1{
-        width: 100%;
-        height: 100%;
-        /* background-color: rebeccapurple; */
-    }
     .leftInnerDiv1 div{
         /* background-color: red; */
-        justify-content: center;
-        margin: 0;
-        padding: 0;
+        justify-content: flex-start;
+
     }
     .leftInnerDiv1 div svg{
         height: 35px;
@@ -60,15 +64,20 @@
     }
 
     .rightDiv{
+        position: relative;
+
 
         width: 100%;
-        /* background-color: red; */
-        /* overflow: hidden; */
+        overflow: visible;
     }::-webkit-scrollbar{
         display: none;
     }
 
     .rightHeader{
+        position: relative !important;
+        width: 100%;
+        z-index: 0 !important;
+        top: 0;
 
         font-size: 12px;
     }
@@ -76,6 +85,8 @@
         /* background-color: red !important; */
         width: fit-content;
         padding: 0 1.4em;
+        font-weight: 700;
+        font-size: 1.2em;
         
     }
 
